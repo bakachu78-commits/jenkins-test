@@ -5,7 +5,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/bakachu78-commits/my-first-jenkins-pipeline.git'
+                    url: 'https://github.com/bakachu78-commits/jenkins-test.git'
             }
         }
 
